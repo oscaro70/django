@@ -59,7 +59,7 @@ def actualizar_producto(request, id ):
         pro = Producto.objects.get(id = id)
         pro.nombre = nom
         pro.marca=mar
-        pro.precio=cos
+        pro.costo=cos
         pro.piezas=pzas
         pro.fec_ing= fec
         pro.activo=act
