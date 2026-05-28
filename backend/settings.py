@@ -82,15 +82,14 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',                # tu base de datos
         'USER': 'root',                   # usuario
-        'PASSWORD': 'yIJCYBFnAUSvihhjPulRNBwIIBYpcwaF',     # reemplaza con tu password
-        'HOST': 'shuttle.proxy.rlwy.net',# host de Railway
-        'PORT': '17398',                  # puerto personalizado
+        'PASSWORD': 'yzXKcOBNPcdchqFAZpHcxqZEAYZeJBwn',     # reemplaza con tu password
+        'HOST': 'trolley.proxy.rlwy.net',# host de Railway
+        'PORT': '13598',                  # puerto personalizado
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
